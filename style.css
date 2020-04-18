@@ -1,0 +1,39 @@
+body
+{
+    background-color: black;
+    margin-left: 70px;
+}
+h1
+{
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    margin-top: 15%;
+}
+p
+{
+    text-align: center;
+    color: cornflowerblue;
+}
+h2
+{
+    text-align: center;
+    color: red;
+}
+footer
+{
+    text-align: center;
+    margin-top: 100px;
+}
+@media only screen and (max-width: 480px)
+{
+    body
+    {
+        text-align: center;
+        margin-top: 150px;
+    }
+    footer
+    {
+        margin-top: 90px;
+    }
+}
